@@ -1,0 +1,120 @@
+.footer-area {
+    background-color: #495E57;
+    color: #FFFFFF;
+  }
+  
+  .footerarea .grid-container {
+    grid-template-columns: repeat(4, auto);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .footer-area-logo {
+    grid-column: 1;
+    min-width: 6rem;
+    width: 6rem;
+  }
+  
+  .footer-area h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-area a {
+    color: #FFFFFF;
+    transition: color 0.5s;
+  }
+  
+  .footer-area a:hover, 
+  .footer.area a:focus {
+    color: #F4CE14;
+  }
+  
+  .footer-area-nav {
+    grid-column: 2;
+  }
+  
+  .footer-area-nav ul {
+    list-style-type: none;
+  }
+  
+  .footer-area-nav li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .footer-area-contact {
+    grid-column: 3;
+  }
+  
+  .footer-area-contact svg {
+    margin-right: 0.5rem;
+  }
+  
+  .footer-area-contact p {
+    margin-bottom: 0.25rem;
+  }
+  
+  .footer-area-social {
+    grid-column: 4;
+  }
+  
+  .footer-area-social svg {
+    margin-right: 1rem;
+  }
+  
+  /*-- Media queries ------------------------------------------------------*/
+  
+  @media (max-width: 927px) {
+  .footer-area .grid-container {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto;
+  }
+  
+  .footer-area-social {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 2rem;
+  }
+  }
+  
+  @media (max-width: 789px) {
+  .footer-area .grid-container {
+    grid-template-columns: auto auto;
+  }
+  
+  .footer-area-contact {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 2rem;
+  }
+  
+  .footer-area-social {
+    grid-column: 2;
+  }
+  }
+  
+  @media (max-width: 576px) {
+  .footer-area .grid-container {
+    grid-template-columns: auto;
+  }
+  
+  .footer-area-logo {
+    grid-row: 1;
+  }
+  
+  .footer-area-nav {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 2rem;
+  }
+  
+  .footer-area-contact {
+    grid-row: 3;
+  }
+  
+  .footer-area-social {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  }
