@@ -10,7 +10,7 @@ pages.set('Reservations', {
 });
 pages.set('confirmedReservation', {
   name: 'Confirmed Reservation',
-  path: '/confirmed-Reservation',
+  path: '/reservations/confirmed',
   anchorable: false
 });
 pages.set('orderOnline', {

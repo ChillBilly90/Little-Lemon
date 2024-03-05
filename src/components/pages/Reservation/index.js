@@ -22,8 +22,8 @@ const Reservations = () => {
 
   const submitData = formData => {
     const response = submitAPI(formData);
-    if (response) navigate(pages.get('ReservationConf').path);
-  }; 
+    if (response) navigate(pages.get('confirmedReservation').path);
+  };
 
   return (
     <div className="reservations">
